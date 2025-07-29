@@ -24,7 +24,7 @@ html {
   background-image: url("https://www.jaypeehotels.com/blog/wp-content/uploads/2024/07/Blog-3-scaled.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.4; /* Adjust opacity here */
+  opacity: 0.2; /* Adjust opacity here */
   z-index: -1;
 }
 
