@@ -15,9 +15,17 @@ html {
 }
 
 .banner-section-bg-container {
-    background-image: url("https://www.jaypeehotels.com/blog/wp-content/uploads/2024/07/Blog-3-scaled.jpg");
+/*     background-image: url("https://www.jaypeehotels.com/blog/wp-content/uploads/2024/07/Blog-3-scaled.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 100vh; */
+     content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url("https://www.jaypeehotels.com/blog/wp-content/uploads/2024/07/Blog-3-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4; /* Adjust opacity here */
+  z-index: -1;
 }
 
 .banner-heading {
